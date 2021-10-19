@@ -1,3 +1,6 @@
+import java.util.*;
+import java.io.*;
+class SeatingArrangement{
 public static void Func(int[][] locations) {
 	Scanner sc = new Scanner(System.in);
 	int Seatno = sc.nextInt();
@@ -33,3 +36,4 @@ public static void Func(int[][] locations) {
 		System.out.println("Choose the location where you would like to watch you favourite show from Seat No. 1 to 100:"+" ");
 		Func(locations);
 	}
+}
